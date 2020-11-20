@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css"/>
+    
+    <title>Login - To Do List</title>
+</head>
+<body>
+    <header>
+        <div class="header_items"><h4>To Do App</h4></div>
+    </header>
+    <main>
+     <div class="login_container">
+      <div class="login_items"><h2>Login</h2></div> 
+      <div class="login_items"><label for="username" style="display:block">Username</label><input type="text" value="" name="username" id="username"></div> 
+      <div class="login_items"><label for="password" style="display:block">Password</label><input type="text" value="" name="password" id="password"></div> 
+      <div class="login_items"><input type="button" value="Login" id="login"></div> 
+     </div>
+   <div class="backdrop close">
+       
+   </div>
+   <div class="error-modal close">
+    <div class="error_modal_items">ID and Password Does not match</div> 
+   </div>
+    </main>
+
+</body>
+<script src="scripts/login.js"></script>
+</html>
