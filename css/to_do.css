@@ -1,0 +1,33 @@
+.add_notes {
+  width: 30%;
+  height: 10%;
+  background-color: white;
+  border: black 0.5px;
+  border-style: solid;
+  box-shadow: 1px 1px 10px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.add_notes_button {
+  margin-left: 10px;
+  background-color: teal;
+}
+
+.to_do_list {
+  width: 30%;
+  height: 70%;
+  background-color: white;
+  margin-top: 2rem;
+  border: black 0.5px;
+  border-style: solid;
+}
+
+.to_do_list_items {
+  height: 2rem;
+  background-color: turquoise;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}

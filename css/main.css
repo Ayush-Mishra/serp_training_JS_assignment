@@ -26,6 +26,13 @@ header {
   display: inline;
 }
 
+.header_items a:hover,
+.header_items a,
+.header_items a:visited {
+  text-decoration: none;
+  color: turquoise;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -61,6 +68,7 @@ main {
 #login {
   margin-top: 1rem;
   padding: 0.1rem 2rem;
+  width: 10rem;
 }
 
 .backdrop {
