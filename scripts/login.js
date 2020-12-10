@@ -12,9 +12,10 @@ function loginFun () {
 let uname = username.value;
 let pwd = password.value;
 console.log(uname +' '+ pwd)
-if (uname === 'ayush' && pwd === 'test')
-{
+if ((uname === 'ayush' && pwd === 'test') ||(uname === 'ayush1') && (pwd === 'test'))
+{   localStorage.setItem('user',uname );
     window.location.replace("file:///C:/Javascript/serp_training_JS_assignment/to_do_app.html");
+
 }
 else
 {
